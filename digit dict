@@ -1,0 +1,5 @@
+#PRINTING DIGIT NAME THROUGH NUMBER ,MAKE PROGRAMME USING DICT FUNCTION
+d = {0:"zero",1:"one",2:"two",3:"three",4:"four",5:"five"}
+dig = int(input("enter the digit value upto five"))
+if dig in d:
+    print("{} is {}".format(dig,d.get(dig)))
