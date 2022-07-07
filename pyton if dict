@@ -1,0 +1,16 @@
+#print for acceepting any digit and display its name
+#digitex.py
+
+d = int(input("enter the digit"))
+if d==0:
+    print("DIGIT IS ZERO")
+else:
+    if d==1:
+        print("DIGIT IS ONE")
+    else:
+        if d==2:
+            print("DIGIT IS TWO")
+        else:
+            if d==3:
+                print("DIGIT IS THREE")
+            
